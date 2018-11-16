@@ -1,0 +1,328 @@
+---
+title: "Wolfram|Alpha"
+subtitle: "Una herramienta informática con múltiples aplicaciones en la educación universitaria"
+author: "C. González-Martel, N. Dávila-Cárdenes, E. Gómez-Déniz"
+date: "16/11/2018"
+output:
+  xaringan::moon_reader:
+    mathjax: "https://cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_HTMLorMML"
+    lib_dir: libs
+    css: ["rutgers", "rutgers-fonts", "./custom.css"]
+    nature:
+      beforeInit: "js/ru_xaringan.js"
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: "16:9"
+
+    includes:
+      in_header: "header.html"
+
+---
+
+# Índice
+
+1. [Introducción.](/index.html#3)
+
+2. [Uso en las aulas.](/index.html#20)
+
+3. [Conclusiones.](/index.html#28)
+
+---
+
+
+class:  inverse, center, middle
+
+# Introducción.
+
+---
+
+background-image: url(img/images_wa.jpg)
+background-size: cover
+
+class:  inverse, bottom
+
+## ¿Qué es Wolfram|Alpha?
+
+---
+
+
+
+background-image: url(img/images.jpg)
+background-size: cover
+
+<ru-blockquote> May 18, 2009—Wolfram Alpha LLC today announced the general availability of Wolfram|Alpha, the world's first computational knowledge engine, offered for free on the web.</ru-blockquote>
+
+---
+
+background-image: url(img/available-free-online-011.jpg)
+background-position: 50% 75%
+background-size: 300pt
+
+# Objetivo
+
+<ru-blockquote>The long-term goal of Wolfram|Alpha is to make all systematic knowledge immediately computable and accessible to everyone.</ru-blockquote>
+
+---
+
+background-image: url(img/Wolfram-something-big-coming.png)
+background-position: 75% 55%
+background-size: 300pt
+
+# Tecnología Wolfram|Alpha
+
+.pull-left[
+* 10 millones de líneas de código escrito en *Mathematica*
+
+* Terabytes de datos.
+
+* Computación en paralelo
+
+* Arquitectura modular de servidores repartidos en clusters de procesadores x86.
+]
+
+---
+background-image: url(img/watsonwolfram.png)
+background-position: 80% 60%
+background-size: 300pt
+
+
+# Pilares Wolfram|Alpha
+
+.pull-left[
+* **Datos supervisados**.  Grupos de expertos recopila los datos y los supervisa transformándolos en formatos que puedan ser interpretados por los algoritmos.
+
+* **Computación dinámica**. W|A extrae la información relevante de sus bases de datos para aplicar los algoritmos que crean y sintetizan nueva información relevante.
+
+* **Comprensión del lenguaje intuitivo**.Los desarrolladores examinan las distintas formas que los usuarios pueden expresar sus ideas para  refinar los algoritmos que detectan esos patrones.
+
+* **Formato computacional**. W|A da una nueva aproximación al diseño de la interface de usuario para que la respuesta sea presentada de manera clara y útil.
+]
+
+---
+background-image: url(img/4_94.jpg)
+background-size: cover
+class: bottom, inverse
+
+# Diferencias con Google
+
+---
+background-image: url(img/google_search.png)
+background-position: 80% 40%
+background-size: 300pt
+
+
+# Google
+.pull-left[
+* Es un motor de búsqueda
+
+* Busca e indexa información de la Web
+
+* El resultado es una lista de enlaces a páginas existentes en la Web.
+
+* W|A proporciona respuestas a preguntas específicas áplicando sus algoritmos a bases de conocimientos contruidos por el programa.
+]
+
+
+---
+background-image: url(img/wikipedia.jpg)
+background-size: cover
+class: bottom, inverse
+
+# Diferencias con Wikipedia
+
+---
+background-image: url(img/Simple-English.png)
+background-position: 80% 40%
+background-size: 300pt
+
+
+# Wikipedia
+.pull-left[
+
+* Wikipedia contiene páginas en forma de artículo sobre diversos temas.
+
+* Entradas elboradas de forma colaborativa.
+
+* W|A elabora las respuestas a preguntas específicas proporcionando datos de fuentes fiables externas que han sido introducidas en sus bases de conocimiento.
+]
+
+---
+
+background-image: url(img/google_laspalmas.png)
+background-position: 50% 30%
+background-size: 550pt
+class: bottom
+
+# Wolfram|Alpha en Google
+
+---
+
+background-image: url(img/wk_laspalmas.png)
+background-position: 50% 40%
+background-size: 600pt
+class: bottom
+
+# Wolfram|Alpha en Wikipedia
+
+---
+
+background-image: url(img/wa_laspalmas.png)
+background-position: 50% 40%
+background-size: 600pt
+class: bottom
+
+# Wolfram|Alpha en Wolfram|Alpha
+
+---
+# Ejemplos
+
+* [33g of gold](http://www.wolframalpha.com/input/?i=33g+of+gold)
+
+* [red + yellow](http://www.wolframalpha.com/input/?i=red+%2B+yellow)
+
+* [6000 words](http://www.wolframalpha.com/input/?i=6000+words)
+
+* [weather las palmas de gran canaria 31/12/2017](http://www.wolframalpha.com/input/?i=weather+las+palmas+de+gran+canaria+31%2F12%2F2017)
+
+* [19/05/2009](http://www.wolframalpha.com/input/?i=18%2F05%2F2009)
+* [fish production spain](http://www.wolframalpha.com/input/?i=fish+production+spain)
+
+* [las palmas de gran canaria to madrid](http://www.wolframalpha.com/input/?i=las+palmas+de+gran+canaria+to+madrid)
+
+* [mortgage 125000€ 25 years 2.25%](http://www.wolframalpha.com/input/?i=mortgage+125000%E2%82%AC+25+years+2.25%25)
+
+---
+# [Más ejemplos](https://www.wolframalpha.com/)
+
+background-image: url(img/ejemplos.png)
+background-position: 50% 50%
+background-size: 600pt
+
+---
+
+background-image: url(img/productos.png)
+background-position: 80% 60%
+background-size: 500pt
+
+
+# Productos relacionados con W|A.
+.pull-left[
+* **Wolfram|Alpha website** [www.wolframalpha.com](www.wolframalpha.com)
+
+* **Wolfram|Alpha para dispositivos móviles**
+
+* **Widget Builder** [http://developer.wolframalpha.com/widgets](http://developer.wolframalpha.com/widgets)
+
+* **Wolfram|Alpha API**
+]
+
+---
+background-image: url(img/planes.png)
+background-position: 50% 50%
+background-size: 700pt
+class: bottom, inverse
+
+# Planes
+
+---
+
+class:  inverse, center, middle
+
+# Uso en las aulas.
+
+---
+
+background-image: url(img/derivatives.png)
+background-position: 50% 60%
+background-size: 500pt
+
+# Recopilar información sobre un determinado concepto. 
+
+* [Derivatives](https://www.wolframalpha.com/input/?i=derivatives&assumption=%7B%22F%22,+%22Derivative%22,+%22derivativefunction%22%7D+-%3E%223+x%5E3+%2B+2+x%22&assumption=%7B%22FVarOpt%22%7D+-%3E+%7B%7B%22Derivative%22,+%22derivativevariable%22%7D%7D&assumption=%7B%22C%22,+%22derivatives%22%7D+-%3E+%7B%22MathWorld%22%7D)
+
+
+---
+background-image: url(img/genoma.png)
+background-position: 50% 60%
+background-size: 300pt
+
+# Buscar detalles de un determinado concepto. 
+
+* [AAGCTAGCTAGC](http://www.wolframalpha.com/input/?i=AAGCTAGCTAGC)
+
+---
+background-image: url(img/uscensus.png)
+background-position: 50% 60%
+background-size: 500pt
+
+# Creación de gráficos. 
+
+* [chart US population](http://www.wolframalpha.com/input/?i=+chart+US+population)
+
+---
+background-image: url(img/limite.png)
+background-position: 50% 60%
+background-size: 350pt
+
+# Resolución de problemas matemáticos.
+
+$\lim_{x\to 0}{\frac{x^2}{3-x}}$
+[link](https://www.wolframalpha.com/input/?i=limit+of+x%5E2%2F{3-x}+as+x+-%3E+0)
+
+---
+background-image: url(img/money.png)
+background-position: 50% 50%
+background-size: 400pt
+
+# Diseño de problemas más elaborados
+
+* [History:US History. The History of Money](http://www.wolframalpha.com/educators/lessonplans/The_History_of_Money.pdf)
+
+---
+
+# Problemas más elaborados
+
+#### Calcular el polinomio de Taylor de grado 2 de la función $$f\left(x,y\right)=e^{x+y}$$ en el punto $(0,0)$.
+
+* $$f(0,0)$$
+
+    * https://www.wolframalpha.com/input/?i=e%5E(x+%2B+y)+where+x%3D0,y%3D0
+
+* $$\frac{\partial f(x,y)}{\partial x}(0,0),\,\frac{\partial f(x,y)}{\partial y}(0,0)$$
+    * https://www.wolframalpha.com/input/?i=d(+e%5E%7Bx%2By%7D)%2Fdx,+d(+e%5E%7Bx%2By%7D)%2Fdy
+
+    * https://www.wolframalpha.com/input/?i=%7Be%5E(x+%2B+y),+e%5E(x+%2B+y)%7D+where+x%3D0,+y+%3D+0
+
+---
+
+* $$\frac{\partial^2 f(x,y)}{\partial x^2}(0,0),\,\frac{\partial^2 f(x,y)}{\partial y^2}(0,0),\,\frac{\partial^2 f(x,y)}{\partial y\partial x}(0,0)$$
+
+    * https://www.wolframalpha.com/input/?i=d%5E2(e%5E%7Bx%2By%7D)%2Fdx%5E2,++d%5E2(e%5E%7Bx%2By%7D)%2Fdy%5E2,+d%5E2(e%5E%7Bx%2By%7D)%2Fdxdy
+
+    * https://www.wolframalpha.com/input/?i=%7Be%5E(x+%2B+y),+e%5E(x+%2B+y),+e%5E(x+%2B+y)%7D+where+x%3D0,y%3D0
+
+* Solución
+
+    * https://www.wolframalpha.com/input/?i=1%2B1x%2B1y%2B1%2F2(1x%5E2%2B1y%5E2%2B2xy)
+
+---
+
+class:  inverse, center, middle
+
+# Conclusiones.
+
+---
+
+# Conclusiones
+
+* Wolfram|Alpha ofrece utilidades en disciplinas tan diversas como las matemáticas, la física, la química, medicina, etc.
+
+* Herramienta educativa en las asignaturas de las distintas carreras universitarias
+
+---
+
+background-image: url(img/logo2.png)
+background-position: 50% 50%
+background-size: 400pt
+
