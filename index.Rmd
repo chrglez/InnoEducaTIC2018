@@ -193,12 +193,12 @@ class: bottom
 * [mortgage 125000€ 25 years 2.25%](http://www.wolframalpha.com/input/?i=mortgage+125000%E2%82%AC+25+years+2.25%25)
 
 ---
-# [Más ejemplos](https://www.wolframalpha.com/)
 
 background-image: url(img/ejemplos.png)
 background-position: 50% 50%
 background-size: 600pt
 
+# [Más ejemplos](https://www.wolframalpha.com/)
 ---
 
 background-image: url(img/productos.png)
