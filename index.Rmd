@@ -13,7 +13,7 @@ output:
       highlightStyle: github
       highlightLines: true
       countIncrementalSlides: false
-      ratio: "16:9"
+      ratio: "4:3"
 
     includes:
       in_header: "header.html"
@@ -24,9 +24,9 @@ output:
 
 1. [Introducción.](/index.html#3)
 
-2. [Uso en las aulas.](/index.html#20)
+2. [Uso en las aulas.](/index.html#21)
 
-3. [Conclusiones.](/index.html#28)
+3. [Conclusiones.](/index.html#29)
 
 ---
 
@@ -66,7 +66,7 @@ background-size: 300pt
 ---
 
 background-image: url(img/Wolfram-something-big-coming.png)
-background-position: 75% 55%
+background-position: 80% 45%
 background-size: 300pt
 
 # Tecnología Wolfram|Alpha
@@ -81,15 +81,13 @@ background-size: 300pt
 * Arquitectura modular de servidores repartidos en clusters de procesadores x86.
 ]
 
----
-background-image: url(img/watsonwolfram.png)
-background-position: 80% 60%
-background-size: 300pt
 
+
+---
 
 # Pilares Wolfram|Alpha
 
-.pull-left[
+
 * **Datos supervisados**.  Grupos de expertos recopila los datos y los supervisa transformándolos en formatos que puedan ser interpretados por los algoritmos.
 
 * **Computación dinámica**. W|A extrae la información relevante de sus bases de datos para aplicar los algoritmos que crean y sintetizan nueva información relevante.
@@ -97,7 +95,12 @@ background-size: 300pt
 * **Comprensión del lenguaje intuitivo**.Los desarrolladores examinan las distintas formas que los usuarios pueden expresar sus ideas para  refinar los algoritmos que detectan esos patrones.
 
 * **Formato computacional**. W|A da una nueva aproximación al diseño de la interface de usuario para que la respuesta sea presentada de manera clara y útil.
-]
+
+---
+background-image: url(img/watsonwolfram.png)
+background-position: 60% 70%
+background-size: 300pt
+
 
 ---
 background-image: url(img/4_94.jpg)
@@ -108,7 +111,7 @@ class: bottom, inverse
 
 ---
 background-image: url(img/google_search.png)
-background-position: 80% 40%
+background-position: 90% 50%
 background-size: 300pt
 
 
@@ -120,7 +123,7 @@ background-size: 300pt
 
 * El resultado es una lista de enlaces a páginas existentes en la Web.
 
-* W|A proporciona respuestas a preguntas específicas áplicando sus algoritmos a bases de conocimientos contruidos por el programa.
+* W|A proporciona respuestas a preguntas específicas aplicando sus algoritmos a bases de conocimientos contruidos por el programa.
 ]
 
 
@@ -133,7 +136,7 @@ class: bottom, inverse
 
 ---
 background-image: url(img/Simple-English.png)
-background-position: 80% 40%
+background-position: 90% 40%
 background-size: 300pt
 
 
@@ -159,7 +162,7 @@ class: bottom
 ---
 
 background-image: url(img/wk_laspalmas.png)
-background-position: 50% 40%
+background-position: 50% 50%
 background-size: 600pt
 class: bottom
 
@@ -196,14 +199,14 @@ class: bottom
 
 background-image: url(img/ejemplos.png)
 background-position: 50% 50%
-background-size: 600pt
+background-size: 500pt
 
 # [Más ejemplos](https://www.wolframalpha.com/)
 ---
 
 background-image: url(img/productos.png)
-background-position: 80% 60%
-background-size: 500pt
+background-position: 80% 40%
+background-size: 250pt
 
 
 # Productos relacionados con W|A.
@@ -219,7 +222,7 @@ background-size: 500pt
 
 ---
 background-image: url(img/planes.png)
-background-position: 50% 50%
+background-position: 50% 30%
 background-size: 700pt
 class: bottom, inverse
 
@@ -234,8 +237,8 @@ class:  inverse, center, middle
 ---
 
 background-image: url(img/derivatives.png)
-background-position: 50% 60%
-background-size: 500pt
+background-position: 50% 75%
+background-size: 400pt
 
 # Recopilar información sobre un determinado concepto. 
 
@@ -244,8 +247,8 @@ background-size: 500pt
 
 ---
 background-image: url(img/genoma.png)
-background-position: 50% 60%
-background-size: 300pt
+background-position: 50% 70%
+background-size: 250pt
 
 # Buscar detalles de un determinado concepto. 
 
@@ -262,8 +265,8 @@ background-size: 500pt
 
 ---
 background-image: url(img/limite.png)
-background-position: 50% 60%
-background-size: 350pt
+background-position: 50% 70%
+background-size: 300pt
 
 # Resolución de problemas matemáticos.
 
@@ -272,8 +275,8 @@ $\lim_{x\to 0}{\frac{x^2}{3-x}}$
 
 ---
 background-image: url(img/money.png)
-background-position: 50% 50%
-background-size: 400pt
+background-position: 50% 60%
+background-size: 450pt
 
 # Diseño de problemas más elaborados
 
@@ -283,7 +286,7 @@ background-size: 400pt
 
 # Problemas más elaborados
 
-#### Calcular el polinomio de Taylor de grado 2 de la función $$f\left(x,y\right)=e^{x+y}$$ en el punto $(0,0)$.
+#### Calcular el polinomio de Taylor de grado 2 de la función $f\left(x,y\right)=e^{x+y}$ en el punto $(0,0)$.
 
 * $$f(0,0)$$
 
@@ -317,6 +320,8 @@ class:  inverse, center, middle
 # Conclusiones
 
 * Wolfram|Alpha ofrece utilidades en disciplinas tan diversas como las matemáticas, la física, la química, medicina, etc.
+
+* Buscador de conocimiento con versatilidad para su accesibilidad
 
 * Herramienta educativa en las asignaturas de las distintas carreras universitarias
 
